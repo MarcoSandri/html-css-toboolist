@@ -115,6 +115,7 @@ main>*{
     border: 2px solid #8DD1C1;
     border-radius: 50%;
     text-align: center;
+    line-height: 18px;
     vertical-align: middle;
 }
 
@@ -128,6 +129,7 @@ main>*{
     border: 2px solid #ED7974;
     border-radius: 50%;
     text-align: center;
+    line-height: 18px;
     vertical-align: middle;
 }
 
