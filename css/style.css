@@ -75,9 +75,53 @@ main>*{
 }
 
 .content-wrapper {
-    height: 100px;
     border-radius: 0 0 5px 5px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.list {
+    margin-bottom: 20px;
+    color: #444851;
+}
+
+.list>h2::before {
+    content: "\23F7";
+}
+
+.line>span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.check::before {
+    font-size: 15px;
+    display: inline-block;
+    content: "\2714";
+    width: 20px;
+    height: 20px;
+    color: #8DD1C1;
+    border: 2px solid #8DD1C1;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cross::before {
+    font-size: 18px;
+    display: inline-block;
+    content: "\00D7";
+    width: 20px;
+    height: 20px;
+    color: #ED7974;
+    border: 2px solid #ED7974;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tag {
+    display:inline-block;
+    
+}
