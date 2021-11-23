@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F6F8F9 ;
+}
+
+/* Stile header */
+
+header {
+    background-color: #fff;
+    height: 80px;
+}
+
+.header-wrapper {
+    padding: 10px;
+}
+
+.header-wrapper img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-wrapper span{
+    font-size: 40px;
+    vertical-align: middle;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* Stile main */
+
