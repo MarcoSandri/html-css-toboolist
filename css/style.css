@@ -55,8 +55,8 @@ main>*{
     height: 30px;
     border-radius: 5px;
     background-color: #fff;
-    color: #808080;
-    border: 1px solid gray;
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
     margin-right: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -132,6 +132,17 @@ main>*{
     line-height: 18px;
     vertical-align: middle;
 }
+
+.cross:hover::before {
+    background-color: #ED7974;
+    color: #fff;
+}
+
+.check:hover::before {
+    background-color: #8DD1C1;
+    color: #fff;
+}
+
 
 /* Stili dei tag */
 
