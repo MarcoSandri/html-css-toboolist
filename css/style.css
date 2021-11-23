@@ -109,8 +109,8 @@ main>*{
     font-size: 15px;
     display: inline-block;
     content: "\2714";
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     color: #8DD1C1;
     border: 2px solid #8DD1C1;
     border-radius: 50%;
@@ -122,8 +122,8 @@ main>*{
     font-size: 18px;
     display: inline-block;
     content: "\00D7";
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     color: #ED7974;
     border: 2px solid #ED7974;
     border-radius: 50%;
