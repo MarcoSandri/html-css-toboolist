@@ -51,6 +51,8 @@ main>*{
     padding-bottom: 10px;
 }
 
+/* Bottoni */
+
 .actions button {
     height: 30px;
     border-radius: 5px;
@@ -104,6 +106,7 @@ main>*{
     margin-left: 5px;
 }
 
+/* Check e cross */
 
 .check::before {
     font-size: 15px;
