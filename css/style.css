@@ -80,6 +80,8 @@ main>*{
     padding-bottom: 30px;
 }
 
+/* Stili liste */
+
 .list {
     margin-bottom: 20px;
     color: #444851;
@@ -121,7 +123,44 @@ main>*{
     vertical-align: middle;
 }
 
-.tag {
+/* Stili dei tag */
+
+.tag::before {
+    content:"";
     display:inline-block;
-    
+    padding: 7px 10px;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.editorial::before {
+    content:"Editorial";
+    background-color: #45ABEA;
+}
+
+.q1-goals::before {
+    content:"Q1 Goals";
+    background-color: #9C72E4;
+}
+
+.recruiting::before {
+    content:"Recruiting";
+    background-color: #64C0A9;
+}
+
+.mobile::before {
+    content:"Mobile";
+    background-color: #F29E33;
+}
+
+.website::before {
+    content:"Website";
+    background-color: #D863A1;
+}
+
+.sales::before {
+    content:"Sales";
+    background-color: #B0C926;
 }
